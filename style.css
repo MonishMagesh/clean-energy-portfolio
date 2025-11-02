@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffbcc;
+    color: #333;
+    display: flex;
+}
+
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #8B0000, #DC143C);
+    color: white;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar img {
+    width: 100px;
+    height: 130px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid white;
+}
+
+.sidebar .logo {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin: 8px 0 4px 0;
+    text-align: center;
+}
+
+.sidebar p {
+    font-size: 13px;
+    margin: 2px 20px;
+    text-align: center;
+}
+
+.sidebar a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.content {
+    margin-left: 260px;
+    padding: 30px;
+    flex: 1;
+    background-color: #ffffe0;
+}
+
+h1, h2 {
+    color: #c41e3a;
+}
+
+.diagram {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.diagram img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #ddd;
+}
